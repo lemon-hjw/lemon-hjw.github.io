@@ -1,26 +1,5 @@
 /* 页脚与头图透明 */
-#footer {
-    background: transparent !important;
-  }
-  #page-header {
-    background: transparent !important;
-  }
-  
-  /* 白天模式遮罩透明 */
-  #footer::before {
-    background: transparent !important;
-  }
-  #page-header::before {
-    background: transparent !important;
-  }
-  
-  /* 夜间模式遮罩透明 */
-  [data-theme="dark"] #footer::before {
-    background: transparent !important;
-  }
-  [data-theme="dark"] #page-header::before {
-    background: transparent !important;
-  }
+
   /* 小冰分类分类磁铁黑夜模式适配 */
 /* 一般状态 */
 [data-theme="dark"] .magnet_link_context {
@@ -34,7 +13,7 @@
   }
   
   /* 侧边栏个人信息卡片动态渐变色 */
-#aside-content > .card-widget.card-info {
+/* #aside-content > .card-widget.card-info {
     background: linear-gradient(
       -45deg,
       #e8d8b9,
@@ -82,12 +61,12 @@
     100% {
       background-position: 0% 50%;
     }
-  }
+  } */
   
   /* 黑夜模式适配 */
-  [data-theme="dark"] #aside-content > .card-widget.card-info {
+  /* [data-theme="dark"] #aside-content > .card-widget.card-info {
     background: #191919ee;
-  }
+  } */
   
   /* 个人信息Follow me按钮 */
   #aside-content > .card-widget.card-info > #card-info-btn {
@@ -211,5 +190,28 @@ h6::before {
     100% {
       box-shadow: 0px 0px 1px 1px #39c5bb;
     }
+  }
+  /* 页脚与头图透明 */
+#footer {
+    background: transparent !important;
+  }
+  #page-header {
+    background: transparent !important;
+  }
+  
+  /* 白天模式遮罩透明 */
+  #footer::before {
+    background: transparent !important;
+  }
+  #page-header::before {
+    background: transparent !important;
+  }
+  
+  /* 夜间模式遮罩透明 */
+  [data-theme="dark"] #footer::before {
+    background: transparent !important;
+  }
+  [data-theme="dark"] #page-header::before {
+    background: transparent !important;
   }
   
