@@ -49,9 +49,9 @@ if (document.body.clientWidth > 992) {
           : this.prop("nodeName");
       if ($(".neko").length == 0) {
         this.after(
-          '<div class="neko" id=' +
+          '<div class="neko" id=" +
             setting.nekoname +
-            ' data-msg="' +
+            " data-msg="' +
             setting.hoverMsg +
             '"></div>'
         );
